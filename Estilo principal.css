@@ -1,175 +1,190 @@
-*{
+/* Estilos generales para resetear padding y margin y ajustar el modelo de caja */
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    }
-.cabeza img{
+}
+
+/* Estilos para la sección de la cabecera */
+.cabeza img {
     height: 100px;
     width: 100px;
     padding-top: 5px;
     float: left;
 }
-header{
+
+header {
     min-width: 100%;
     height: 180px;
     background-color: #928764;
-
     font-size: 50px;
     font-weight: bold;
     margin: 0%;
     text-align: center;
-
 }
-header a{
+
+header a {
     text-decoration: none;
     color: white;
 }
-header a:hover{
+
+header a:hover {
     color: rgba(255, 255, 255, 0.76);
 }
-body{
+
+body {
     background-color: rgb(126, 124, 122);
 }
 
-/* navegador */
-.navegador{
+/* Estilos para el navegador */
+.navegador {
     font-size: 30px;
 }
-.navegador ul li{
+
+.navegador ul li {
     float: right;
     list-style: none;
     padding: 1% 3%;
     margin: 1px black;
-
 }
-.navegador ul li a{
+
+.navegador ul li a {
     text-decoration: none;
     color: white;
-    
 }
-.navegador ul li a:hover{
+
+.navegador ul li a:hover {
     color: rgba(255, 255, 255, 0.719);
-    
 }
 
-
-
-/* articulo */
-article{
+/* Estilos para la sección del artículo */
+article {
     padding-left: 9%;
-    
-    margin:  40px 20px;
+    margin: 40px 20px;
     background-color: #6c644a;
 }
-.btn-secondary{
+
+.btn-secondary {
     background-color: #fff6ae;
 }
 
-
-/* Acerca de nosotros */
-section{
+/* Estilos específicos para la sección "Acerca de nosotros" */
+section {
     padding: 3%;
 }
-section h1{
+
+section h1 {
     color: white;
     font-size: 40px;
     font-style: italic;
 }
-section h3{
+
+section h3 {
     font-style: italic;
     font-size: 30px;
     color: white;
 }
-section p{
-    
+
+section p {
     font-size: 20px;
     color: rgb(214, 224, 224);
 }
 
-section table tr td img{
+section table tr td img {
     height: 500px;
     padding: 3%;
     border-radius: 30px;
 }
-section table tr td button{
+
+section table tr td button {
     margin-left: 30px;
     width: 440px;
-    
 }
-table{
-    margin: 3%  auto;
-    
+
+table {
+    margin: 3% auto;
 }
-table img:hover{
+
+table img:hover {
     position: relative;
     opacity: .6;
     cursor: pointer;
-
 }
-footer h3{
+
+footer h3 {
     color: #fff6ae;
     font-weight: bold;
 }
 
-/* pie de pagina */
+/* Estilos para la sección del pie de página */
 footer {
     display: block;
     background-color: #928764;
-
     float: right;
     height: 340px auto;
     width: 100%;
 }
-.pie li{
+
+.pie li {
     float: left;
     position: relative;
     list-style: none;
     padding: 0% 4%;
 }
-.lista{
-    margin:  20px;
+
+.lista {
+    margin: 20px;
 }
-.lista h3{
+
+.lista h3 {
     padding: 0% 5%;
     font-size: 30px;
     text-align: center;
 }
-.lista li{
+
+.lista li {
     list-style: none;
     position: relative;
     padding: 0% 5%;
     float: none;
-    margin:  20px;
+    margin: 20px;
 }
-.lista a{
+
+.lista a {
     text-decoration: none;
     font-size: 25px;
     color: white;
 }
-.lista p:hover{
+
+.lista p:hover {
     color: rgba(255, 255, 255, 0.623);
 }
-.lista li img{
+
+.lista li img {
     float: left;
     height: 30px auto;
     width: 30px;
     padding: 0% 1%;
 }
-h3{
+
+h3 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
-.lista p{
+
+.lista p {
     text-decoration: none;
     font-size: 25px;
     color: white;
 }
-.contacto{
+
+.contacto {
     color: white;
 }
-.boton{
-    border-radius:  3%;
+
+.boton {
+    border-radius: 3%;
     width: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -178,10 +193,8 @@ h3{
     color: aliceblue;
 }
 
-
-
-/* formulario */
-.formulario{
+/* Estilos para la sección del formulario */
+.formulario {
     width: 330px;
     background-color: #928764;
     padding: 40px;
@@ -189,16 +202,14 @@ h3{
     margin-top: 100px;
     border-radius: 20px;
     box-shadow: 35px 35px 35px #fff6ae;
-
 }
-.cuadrado form{
 
-
-    min-width:  400px;
+.cuadrado form {
+    min-width: 400px;
     height: 400px;
-
 }
-.cuadrado h2{
+
+.cuadrado h2 {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -206,13 +217,14 @@ h3{
     padding-bottom: 3%;
     position: relative;
 }
-.input-c label{
+
+.input-c label {
     color: white;
     padding: 0% 2%;
     font-size: large;
-    
 }
-.input-c input{
+
+.input-c input {
     min-width: 60%;
     margin-right: 200px;
     margin-top: 3%;
@@ -220,71 +232,75 @@ h3{
     height: 30px;
 }
 
-.input-c a{
+.input-c a {
     color: red;
     font-weight: bold;
 }
-.input-c A:hover{
+
+.input-c A:hover {
     color: #fff6ae;
 }
-.formulario .boton{
+
+.formulario .boton {
     position: center;
     margin: 0% 5%;
     width: 200px;
     height: 40px;
 }
-.input-c input:hover{
+
+.input-c input:hover {
     background-color: #fff6ae;
     color: black;
 }
+
 .boton:hover {
     background-color: #fff6ae;
     color: black;
 }
-.input-c .casilla{
+
+.input-c .casilla {
     height: 20px;
 }
 
-/* terminos y condiciones */
-.terminos{
+/* Estilos para la sección de Términos y Condiciones */
+.terminos {
     display: block;
     align-items: center;
     border: 5px solid black;
     border-radius: 20px;
-    padding: 40px; 
+    padding: 40px;
     width: 70%;
-
     margin: 50px auto;
-   background-color: #928764;
-
+    background-color: #928764;
 }
-.terminos p{
+
+.terminos p {
     color: beige;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
-.terminos h1{
+
+.terminos h1 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     padding-bottom: 3%;
     padding-left: 15%;
 }
-.terminos h3{
+
+.terminos h3 {
     padding-bottom: 3%;
     padding-top: 3%;
-    
 }
-.terminos a{
+
+.terminos a {
     padding-left: 40%;
     text-align: right;
     text-decoration: none;
     color: white;
     font-size: x-large;
 }
-a:hover{
+
+a:hover {
     color: red;
 }
-
-
-
