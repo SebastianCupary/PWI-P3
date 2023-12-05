@@ -2,32 +2,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icono del sitio -->
     <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1155903225644449833/1155929488346058843/pngegg.png?ex=6514703a&is=65131eba&hm=cc5c413262a0e95d49e42de1d9dd92c6eebaa148c742dc5cf4947884d8357791&">
+    <!-- Enlace al archivo de estilo principal -->
     <link rel="stylesheet" type="text/css" href="Estilo principal.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- Sección del formulario de inicio de sesión -->
     <div class="formulario">
+        <!-- Cuadrado que contiene el formulario -->
         <div class="cuadrado">
+            <!-- Formulario de inicio de sesión -->
             <form action="mailto:craftersws@gmail.com?subject=registro&body=registrar_cuenta" method="post" enctype="text/plain">
                 <h2>Iniciar Sesión</h2>
+                <!-- Campo de entrada para el correo -->
                 <div class="input-c">
                     <label>Correo:</label>
                     <br>
-                    <input type="email" placeholder="correo electronico" class="caja" required>
+                    <input type="email" placeholder="correo electrónico" class="caja" required>
                 </div>
+                <!-- Campo de entrada para la contraseña -->
                 <div class="input-c">
                     <label>Contraseña:</label>
                     <br>
                     <input type="password" placeholder="contraseña" class="caja" required>
                 </div>
+                <!-- Casilla de aceptación de Términos y Condiciones -->
                 <div class="input-c">
                     <label>Terminos y Condiciones:</label>
+                    <!-- Casilla de verificación y enlace a los Términos y Condiciones -->
                     <input type="checkbox" name="tyc" required class="casilla">
-                    <label>Acepto los </label><a href="terminos.html">Terminos y Condiciones</a>
+                    <label>Acepto los </label><a href="terminos.html">Términos y Condiciones</a>
                 </div>
                 <br>
-                <button type="submit" class="boton" formaction="index.html" >Iniciar Sesion</button>
+                <!-- Botón para enviar el formulario y redirigir a la página principal -->
+                <button type="submit" class="boton" formaction="index.html" >Iniciar Sesión</button>
             </form>
         </div>
     </div>
